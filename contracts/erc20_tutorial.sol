@@ -3,15 +3,15 @@ pragma solidity ^0.4.18;
 // ----------------------------------------------------------------------------
 // '0Fucks' token contract
 //
-// Deployed to : 0x5A86f0cafD4ef3ba4f0344C138afcC84bd1ED222
-// Symbol      : 0FUCKS
-// Name        : 0 Fucks Token
-// Total supply: 100000000
+// Deployed to : 0x88CC028FFfB0B92Bd4993338981C62E56B41Cf3A
+// Symbol      : Teen5
+// Name        : Teen5 Token
+// Total supply: 10000000
 // Decimals    : 18
 //
 // Enjoy.
 //
-// (c) by Moritz Neto with BokkyPooBah / Bok Consulting Pty Ltd Au 2017. The MIT Licence.
+// (c) by Fatimah / The MIT Licence.
 // ----------------------------------------------------------------------------
 
 
@@ -112,13 +112,13 @@ contract FucksToken is ERC20Interface, Owned, SafeMath {
     // ------------------------------------------------------------------------
     // Constructor
     // ------------------------------------------------------------------------
-    function FucksToken() public {
-        symbol = "0FUCKS";
-        name = "0 Fucks Token";
+    function Teen5() public {
+        symbol = "Teen5";
+        name = Teen5 Token";
         decimals = 18;
-        _totalSupply = 100000000000000000000000000;
-        balances[0x5A86f0cafD4ef3ba4f0344C138afcC84bd1ED222] = _totalSupply;
-        Transfer(address(0), 0x5A86f0cafD4ef3ba4f0344C138afcC84bd1ED222, _totalSupply);
+        _totalSupply = 10000000000000000000000000;
+        balances(0x88CC028FFfB0B92Bd4993338981C62E56B41Cf3A] = _totalSupply;
+        Transfer(address(0),0x88CC028FFfB0B92Bd4993338981C62E56B41Cf3A , _totalSupply);
     }
 
 
